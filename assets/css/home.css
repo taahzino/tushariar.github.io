@@ -1,0 +1,25 @@
+.home {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.home p {
+    text-align: center;
+}
+.github{
+    text-decoration: none;
+}
+
+.bxl-github{
+    font-size: 2rem;
+    color: #000;
+    cursor: pointer;
+}

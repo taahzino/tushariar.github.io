@@ -1,0 +1,62 @@
+@media screen and (max-width:900px) {
+    .menu {
+        flex-direction: column;
+    }
+    .menu-toggle{
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        float: right;
+        cursor: pointer;
+        font-size: 30px;
+        text-align: center;
+        color: #102836;
+    }
+    .menu-toggle:before{
+        content: '\f0c9';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+    .menu-toggle.active:before{
+        content: '\f00d';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+    nav{
+        display: none;
+    }
+    .menu nav.active{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .menu nav.active .nav-items {
+        transition: 0.5s;
+        background-color: #fff;
+        padding: 5px 10px;
+        position: fixed;
+        height: 95px;
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+        z-index: 1;
+        margin-bottom: 30px;
+    }
+    .menu nav.active .nav-items li{
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .menu nav.active .nav-items li a{
+        display: block;
+        width: 95%;
+        margin: 0;
+    }
+    .home {
+        height: 60vh;
+    }
+    .home h1 {
+        margin-top: 20px;
+        font-size: 2.5rem;
+    }
+}

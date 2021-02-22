@@ -1,0 +1,59 @@
+
+header {
+    padding-top: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .logo{
+    line-height: 50px;
+}
+
+.menu .logo h1{
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.menu .logo h1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu .logo .dev{
+    background-color: #000;
+    padding: 0 5px;
+    border-radius: 5px;
+    user-select: none;
+    color: #fff;
+}
+
+.menu .nav-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+
+.menu .nav-items li{
+    margin: 0 10px;
+}
+
+.menu .nav-items li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    user-select: none;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.menu .nav-items li a:hover {
+    background-color: #eee;
+    border-radius: 5px;
+}
+

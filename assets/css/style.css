@@ -3,10 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .clearfix{
     clear: both;
+}
+
+::selection{
+    background: #eee;
+    color: #000;
+}
+
+.mark{
+    background-color: #ddd;
+    padding: 0 5px;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
 }
