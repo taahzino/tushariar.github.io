@@ -8,7 +8,6 @@
 let toggle = document.querySelector('.menu-toggle');
 let nav = document.querySelector('nav');
 
-console.log(toggle.classList);
 toggle.addEventListener('click', () => {
     nav.classList.toggle('active');
     toggle.classList.toggle('active');
