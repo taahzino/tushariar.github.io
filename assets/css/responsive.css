@@ -52,11 +52,29 @@
         width: 95%;
         margin: 0;
     }
+
+    /* Home Section */
     .home {
-        height: 60vh;
+        height: 100vh;
     }
     .home h1 {
         margin-top: 20px;
         font-size: 2.5rem;
+    }
+
+    /* About Section */
+    .about .container {
+        height: 60vh;
+        flex-direction: column;
+    }
+    .about .aboutme {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .about .profile {
+        width: 90%;
     }
 }
