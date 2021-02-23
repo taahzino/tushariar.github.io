@@ -1,5 +1,9 @@
+.about {
+    position: relative;
+}
 .about .container {
-    height: 60vh;
+    position: relative;
+    height: 65vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,6 +13,7 @@
     text-align: center;
 }
 .about .profile img {
+    z-index: -1;
     width: 90%;
     border-radius: 50%;
     filter: grayscale(0%);
@@ -20,6 +25,7 @@
 }
 
 .about .aboutme {
+    position: relative;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -28,10 +34,16 @@
     width: 55%;
 }
 .social-about {
+    position: relative;
+    top: 0;
+    left: 0;
     padding: 10px 0;
     margin: 10px 0;
 }
 .social-about i {
+    position: relative;
+    top: 0;
+    left: 0;
     margin-right: 10px;
     margin-left: 0;
     color: black;

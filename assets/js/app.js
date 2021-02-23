@@ -13,16 +13,22 @@ toggle.addEventListener('click', () => {
     toggle.classList.toggle('active');
 });
 
-
-let moveTop = document.querySelector('#top');
-moveTop.addEventListener('click', (e) => {
-    // e.preventDefault();
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-})
-
 window.addEventListener('scroll', ()=>{
     let header = document.querySelector('header');
     header.classList.toggle('sticky', window.scrollY > 0);
-    header.style.paddingBottom = '12px';
+});
+
+let moveTop = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+let menuItems = document.querySelectorAll('.menuItem');
+menuItems.forEach(item => {
+    item.addEventListener('click', () => {
+        if(nav.classList.contains('active')){
+            toggle.classList.remove('active');
+            nav.classList.remove('active');
+        }
+    });
 });

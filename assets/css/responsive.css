@@ -1,62 +1,47 @@
 @media screen and (max-width:900px) {
-    .menu {
-        flex-direction: column;
-    }
-    .menu-toggle{
+    /* Menu Section  */
+    .menu-toggle {
         display: block;
         width: 40px;
         height: 40px;
         margin: 10px;
         float: right;
         cursor: pointer;
-        font-size: 30px;
         text-align: center;
-        color: #102836;
+        font-size: 30px;
+        color: #000;
     }
-    .menu-toggle:before{
+    .menu-toggle:before {
         content: '\f0c9';
         font-family: fontAwesome;
         line-height: 40px;
     }
-    .menu-toggle.active:before{
+    .menu-toggle.active:before {
         content: '\f00d';
-        font-family: fontAwesome;
-        line-height: 40px;
     }
-    nav{
+    nav {
         display: none;
     }
-    .menu nav.active{
-        display: block;
+    header .container{
         width: 100%;
-        margin: 0 auto;
     }
-    .menu nav.active .nav-items {
-        transition: 0.5s;
+    nav.active {
+        position: absolute;
+        top: 70px;
+        display: block;
+        z-index: 10;
         background-color: #fff;
-        padding: 5px 10px;
-        position: fixed;
-        height: 95px;
-        margin: 0 auto;
+        box-shadow: 0 1px 2px #eee;
         width: 100%;
-        display: block;
-        z-index: 1;
-        margin-bottom: 30px;
     }
-    .menu nav.active .nav-items li{
-        margin: 0 auto;
-        display: inline-block;
-    }
-    .menu nav.active .nav-items li a{
+    nav.active .nav-items{
         display: block;
-        width: 95%;
+    }
+    nav.active .nav-items li a{
         margin: 0;
+        text-align: center;
     }
-
     /* Home Section */
-    .home {
-        height: 100vh;
-    }
     .home h1 {
         margin-top: 20px;
         font-size: 2.5rem;
@@ -64,13 +49,18 @@
 
     /* About Section */
     .about .container {
-        height: 60vh;
+        height: auto;
         flex-direction: column;
     }
     .about .aboutme {
         height: auto;
         width: 100%;
     }
+
+    /* Skills Section  */
+    /* .skills{
+
+    } */
 }
 
 @media screen and (max-width:500px) {
