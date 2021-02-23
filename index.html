@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +11,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
     <!-- Icons -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -22,24 +26,25 @@
 
 
 </head>
+
 <body>
-    
+
     <header>
         <div class="container">
             <div class="menu" id="menu">
                 <div class="logo">
                     <h1>
                         <a href="">
-                            <span class="dev">#</span>
-                            <span class="devName">tushariar</span>
+                            <span class="dev">Dev</span>
+                            <span class="devName">Tahsin</span>
                         </a>
                     </h1>
                 </div>
                 <div class="menu-toggle "></div>
                 <nav class="">
                     <ul class="nav-items">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="#home" id="top">Home</a></li>
+                        <li><a href="#about">About</a></li>
                         <li><a href="#">Skills</a></li>
                         <li><a href="#">Projects</a></li>
                         <li><a href="#">Contact</a></li>
@@ -49,19 +54,50 @@
         </div>
     </header>
     <main>
-        <section class="container home">
-            <h1>Tahsin Ahmed Tushar</h1>
-            <p>
-                Hey! 👋 
-                Let's get introduced! <br>  I am <span class="mark">Tahsin.</span>
-                I am a passionate <span class="">Programmer </span>🚀<br>
-                I write code in <span class="mark">JavaScript🌠</span> <br>
-                <a class="github" href="https://github.com/tushariar" target="_blank">
-                    <i class='bx bxl-github'></i>
-                </a>
-            </p>
+        <section class="home" id="home">
+            <div class="container">
+                <h1>Tahsin Ahmed Tushar</h1>
+                <p>
+                    Hey! 👋
+                    Let's get introduced! <br> I am <span class="mark">Tahsin.</span>
+                    I am a passionate <span class="">Programmer </span>🚀<br>
+                    <a class="github" href="https://github.com/tushariar" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </p>
+            </div>
         </section>
-        <section class="about"></section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="profile">
+                    <img src="assets/images/profile3.jpg" alt="TAT">
+                </div>
+                <div class="aboutme">
+                    <h1>About me</h1>
+                    <p>
+                        Assalamu Alaikum, ❤️<br>
+                        I am Tahsin Ahmed Tushar. 👨🏻‍💻
+                        I am a full stack web developer with 1 year of experience. I use 
+                        <span class="mark">HTML,</span> 
+                        <span class="mark">CSS</span> 
+                        and 
+                        <span class="mark">JavaScript</span> for the frontend and <span class="mark">PHP</span> for the backend. Currently, I am trying to be a master of <span class="">JavaScript🌠.</span> Soon, I will start learning Node js and be using JavaScript for the backend too. Keep me in your prayers. <br>
+                        Zazakumullah Khairan...
+                    </p>
+                    <div class="social-about">
+                        <a href="#">
+                            <i class='bx bxl-facebook-circle'></i>
+                        </a>
+                        <a href="#">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                        <a href="#">
+                            <i class='bx bxl-youtube' ></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="skills"></section>
         <section class="projects"></section>
         <section class="contact"></section>
@@ -71,4 +107,5 @@
     <!-- Scripts -->
     <script src="assets/js/app.js"></script>
 </body>
+
 </html>

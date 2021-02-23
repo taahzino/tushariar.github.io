@@ -1,0 +1,48 @@
+/* .about {
+    
+} */
+.about .container {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .profile {
+    width: 400px;
+    text-align: center;
+}
+.about .profile img {
+    width: 90%;
+    border-radius: 50%;
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+.about .profile img:hover {
+    filter: grayscale(50%);
+}
+
+.about .aboutme {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    width: 55%;
+}
+.social-about {
+    padding: 10px 0;
+    margin: 10px 0;
+}
+.social-about i {
+    color: black;
+    font-size: 2rem;
+}
+.social-about .bxl-facebook-circle{
+    color: #1196F5;
+}
+.social-about .bxl-twitter{
+    color: #1DA1F2;
+}
+.social-about .bxl-youtube{
+    color: red;
+}

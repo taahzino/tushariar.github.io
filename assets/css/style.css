@@ -26,3 +26,7 @@ body{
     width: 85%;
     margin: auto;
 }
+
+a{
+    text-decoration: none;
+}
