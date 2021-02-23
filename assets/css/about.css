@@ -1,5 +1,5 @@
 .about .container {
-    height: 40vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,8 +32,14 @@
     margin: 10px 0;
 }
 .social-about i {
+    margin-right: 10px;
+    margin-left: 0;
     color: black;
     font-size: 2rem;
+    transition: 0.5s;
+}
+.social-about i:hover {
+    filter: hue-rotate(30deg);
 }
 .social-about .bxl-facebook-circle{
     color: #1196F5;
