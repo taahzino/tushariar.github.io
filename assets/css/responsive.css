@@ -1,4 +1,8 @@
 @media screen and (max-width:900px) {
+    /* Header Section  */
+    header {
+        padding: 10px;
+    }
     /* Menu Section  */
     .menu-toggle {
         display: block;
@@ -49,6 +53,7 @@
 
     /* About Section */
     .about .container {
+        margin-top: 10px;
         height: auto;
         flex-direction: column;
     }
@@ -58,9 +63,12 @@
     }
 
     /* Skills Section  */
-    /* .skills{
-
-    } */
+    .skills .container .skill {
+        width: 90%;
+    }
+    .divider{
+        padding-bottom: 40px;
+    }
 }
 
 @media screen and (max-width:500px) {

@@ -34,3 +34,14 @@ body{
 a{
     text-decoration: none;
 }
+
+.divider{
+    display:block;
+    padding: 10px;
+}
+
+.about h1,
+.skills h1
+{
+    text-transform: uppercase;
+}
