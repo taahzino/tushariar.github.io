@@ -31,6 +31,7 @@ menuItems.forEach(item => {
         if(nav.classList.contains('active')){
             toggle.classList.remove('active');
             nav.classList.remove('active');
+            toggleBtn.classList.remove('bx-x');
         }
     });
 });
