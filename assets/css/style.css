@@ -24,6 +24,8 @@ body{
 .mark{
     background-color: #ddd;
     padding: 0 5px;
+    cursor: pointer;
+    font-weight: 500;
 }
 
 .container {
@@ -37,11 +39,15 @@ a{
 
 .divider{
     display:block;
-    padding: 10px;
+    padding-top: 50px;
 }
 
-.about h1,
-.skills h1
-{
+h1 {
     text-transform: uppercase;
+    text-align: center;
+}
+
+header h1,
+.home h1 {
+    text-transform: initial;
 }

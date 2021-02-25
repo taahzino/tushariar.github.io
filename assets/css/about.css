@@ -8,6 +8,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.about .container h1{
+    text-align-last: left;
+}
 .about .profile {
     width: 400px;
     text-align: center;

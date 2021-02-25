@@ -1,0 +1,86 @@
+.projects {
+    position: relative;
+}
+
+.projects .container {
+    min-height: 60vh;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects .container h1 {
+    padding: 5px 0;
+    margin: 5px 0 30px 0;
+}
+.projectFont{
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ecf0f1;
+    color: #000;
+}
+
+.myprojects{
+    display: grid;
+    grid-template-columns: repeat(12, minmax(auto, 60px));
+    grid-gap: 30px;
+}
+
+.myproject{
+    grid-column-end: span 4;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    box-shadow: 1px 1px 1px #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.3s ease;
+}
+.myproject:hover {
+    transform: translateY(-7px);
+}
+.project_img_container{
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    position: relative;
+}
+
+.project_img_container img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+}
+
+.project_details {
+    padding: 15px;
+}
+.project_langs {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.project_links {
+    display: flex;
+    align-self: end;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project_links p a i{
+    color: #000;
+    font-size: 1.7rem;
+    transition: 0.3s;
+}
+.project_links p a i:hover {
+    color: #6C5FD3;
+}
+
+.pIcon {
+    font-size: 25px;
+}
