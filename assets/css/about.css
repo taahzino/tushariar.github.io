@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #fff;
 }
 .about .container h1{
     text-align-last: left;
@@ -22,9 +23,10 @@
     filter: grayscale(0%);
     transition: 0.5s;
     user-select: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .about .profile img:hover {
-    filter: grayscale(50%);
+    transform: scale(0.99,0.99);
 }
 
 .about .aboutme {

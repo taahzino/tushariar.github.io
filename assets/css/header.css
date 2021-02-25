@@ -6,16 +6,19 @@ header{
     margin: 10px auto;
     margin-top: 0;
     padding: 5px;
-    background: #fff;
+    /* background: #fff; */
     box-sizing: border-box;
     z-index: 1;
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
 }
 header .container {
     position: relative;
 }
-header.sticky {
+/* header.sticky {
     box-shadow: 1px 1px 1px #eee;
-}
+} */
 
 .logo{
     height: 60px;
@@ -36,14 +39,14 @@ header.sticky {
 
 .logo h1 a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 .logo .dev {
-    background-color: #000;
+    background-color: #fff;
     padding: 0 5px;
     border-radius: 5px;
-    color: #fff;
+    color: #000;
 }
 
 nav {
@@ -70,7 +73,7 @@ nav .nav-items li a{
     margin: 10px 0;
     padding: 10px 20px;
     text-decoration: none;
-    color: #262626;
+    color: #fff;
     text-transform: uppercase;
     user-select: none;
     transition: 0.3s;
@@ -79,5 +82,6 @@ nav .nav-items li a{
 nav .nav-items li a:hover {
     background-color: #eee;
     border-radius: 5px;
+    color: #000;
 }
 
