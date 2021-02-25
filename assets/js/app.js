@@ -6,11 +6,13 @@
  */
 
 let toggle = document.querySelector('.menu-toggle');
+let toggleBtn = document.querySelector('.bx-menu');
 let nav = document.querySelector('nav');
 
-toggle.addEventListener('click', () => {
+toggleBtn.addEventListener('click', () => {
     nav.classList.toggle('active');
     toggle.classList.toggle('active');
+    toggleBtn.classList.toggle('bx-x');
 });
 
 window.addEventListener('scroll', ()=>{

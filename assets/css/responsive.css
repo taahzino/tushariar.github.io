@@ -19,14 +19,7 @@
         text-align: center;
         font-size: 30px;
         color: #000;
-    }
-    .menu-toggle:before {
-        content: '\f0c9';
-        font-family: fontAwesome;
-        line-height: 40px;
-    }
-    .menu-toggle.active:before {
-        content: '\f00d';
+        font-size: 40px;
     }
     nav {
         display: none;

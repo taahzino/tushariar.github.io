@@ -49,7 +49,12 @@ header.sticky {
 nav {
     float: right;
 }
-
+.menu-toggle{
+    display: none;
+}
+.menu-toggle .bx-menu{
+    user-select: none;
+}
 nav .nav-items {
     margin: 0;
     padding: 0;
