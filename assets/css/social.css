@@ -1,0 +1,32 @@
+.social-about {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+.social-about i {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 10px;
+    margin-left: 0;
+    color: black;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+.social-about i:hover {
+    filter: hue-rotate(30deg);
+}
+.social-about .bxl-facebook-circle{
+    color: #1196F5;
+}
+.social-about .bxl-twitter{
+    color: #1DA1F2;
+}
+.social-about .bxl-youtube{
+    color: red;
+}
+.social-about .bx-mail-send{
+    color: crimson;
+}
