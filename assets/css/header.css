@@ -9,16 +9,15 @@ header{
     /* background: #fff; */
     box-sizing: border-box;
     z-index: 1;
-    background-image: url('../images/bg.jpg');
-    background-position: center;
-    background-size: cover;
 }
 header .container {
     position: relative;
 }
-/* header.sticky {
-    box-shadow: 1px 1px 1px #eee;
-} */
+header.sticky {
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
 
 .logo{
     height: 60px;

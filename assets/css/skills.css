@@ -27,13 +27,15 @@
     width: 100%;
     height: 2rem;
     background-color: #eee;
-    border-radius: 5px;
+    border-radius: 10px 5px 5px 10px;
     user-select: none;
 }
 
 .skills .container .skill .skillCont .skillProgress{
     border-radius: 5px;
     background-image: linear-gradient(#6C5FD3, #4837C8);
+    /* background-image: linear-gradient(#543D52, #9D4961); */
+    /* background-color: #543D52; */
     height: 100%;
     width: var(--skill);
     line-height: 2rem;
