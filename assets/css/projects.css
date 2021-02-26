@@ -19,7 +19,6 @@
     font-size: 16px;
     font-weight: 400;
     color: #ecf0f1;
-    color: #000;
 }
 
 .myprojects{
@@ -32,7 +31,8 @@
     grid-column-end: span 4;
     display: flex;
     flex-direction: column;
-    background-color: #eee;
+    /* background-color: #1B354C; */
+    background-image: linear-gradient(30deg,  #2F2758, #275058);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     cursor: pointer;
@@ -73,7 +73,7 @@
 }
 
 .project_links p a i{
-    color: #000;
+    color: #fff;
     font-size: 1.7rem;
     transition: 0.3s;
 }
