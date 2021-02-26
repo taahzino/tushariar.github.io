@@ -6,7 +6,7 @@
 @media screen and (max-width:900px) {
     /* Header Section  */
     header {
-        padding: 10px;
+        padding: 10px 0;
     }
     /* Menu Section  */
     .menu-toggle {
@@ -18,7 +18,7 @@
         cursor: pointer;
         text-align: center;
         font-size: 30px;
-        color: #000;
+        color: #fff;
         font-size: 40px;
     }
     nav {
@@ -30,14 +30,18 @@
     nav.active {
         position: absolute;
         top: 70px;
+        left: 0;
         display: block;
         z-index: 10;
-        background-color: #fff;
-        box-shadow: 0 1px 2px #eee;
+        background-color: #1A334A;
         width: 100%;
     }
     nav.active .nav-items{
         display: block;
+    }
+    nav.active .nav-items li {
+        margin: 0;
+        padding: 0;
     }
     nav.active .nav-items li a{
         margin: 0;
