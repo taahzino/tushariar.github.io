@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #fff;
+    color: #000;
 }
 .about .container h1{
     text-align-last: left;
@@ -20,13 +20,7 @@
     z-index: -1;
     width: 90%;
     border-radius: 50%;
-    filter: grayscale(0%);
-    transition: 0.5s;
     user-select: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.about .profile img:hover {
-    transform: scale(0.99,0.99);
 }
 
 .about .aboutme {
@@ -47,13 +41,11 @@
     position: relative;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
+    color: #000;
+    background-color: #eee;
 }
 .sendMail:hover {
-    background-color: dodgerblue;
+    background-color: #ddd;
     color: #000;
-    border: 1px solid transparent;
     transition: 0.3s;
 }

@@ -18,7 +18,7 @@
         cursor: pointer;
         text-align: center;
         font-size: 30px;
-        color: #fff;
+        color: #000;
         font-size: 40px;
     }
     nav {
@@ -33,7 +33,8 @@
         left: 0;
         display: block;
         z-index: 10;
-        background-color: #1A334A;
+        background-color: #fff;
+        box-shadow: 1px 1px 2px #eee;
         width: 100%;
     }
     nav.active .nav-items{

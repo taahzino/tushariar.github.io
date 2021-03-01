@@ -4,12 +4,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #fff;
 }
 
 .home h1 {
     text-align: center;
     font-size: 4rem;
+    color: #000;
 }
 
 .home p {
@@ -19,7 +19,7 @@
     text-decoration: none;
 }
 .github i{
-    color: white;
+    color: #000;
 }
 
 .bxl-github{

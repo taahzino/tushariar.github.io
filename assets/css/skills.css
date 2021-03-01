@@ -16,12 +16,11 @@
 }
 .skills .container .skill {
     width: 70%;
-    color: black;
     margin: 5px 0;
 }
 
 .skills .container .skill .skillName{
-    color: #fff;
+    color: #000;
     padding-bottom: 3px;
 }
 .skills .container .skill .skillCont{
