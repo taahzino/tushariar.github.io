@@ -78,6 +78,10 @@
     .myproject {
         grid-column-end: span 12;
     }
+    .gallery_container .gallery_box:nth-child(2) {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
 }
 
 @media screen and (max-width:500px) {
