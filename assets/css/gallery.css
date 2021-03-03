@@ -3,42 +3,92 @@
 }
 .gallery .container {
     position: relative;
-    min-height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     color: #000;
 }
-.gallery_container {
-    position: relative;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-template-rows: minmax(100px, auto);
-    margin: 20px;
-    grid-auto-flow: dense;
-    grid-gap: 10px;
-}
-
-.gallery_container .gallery_box {
-    background: #F8F9F9;
-    padding: 20px;
-    display: grid;
-    place-items: center;
-    text-align: center;
-}
-.gallery_container .gallery_box:hover {
-    background: #FBFCFC;
-}
-
-.gallery_container .gallery_box img {
-    position: relative;
-    max-width: 100%;
+.gallery .container h1 {
     margin-bottom: 10px;
 }
+.gallery_container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+.gallery_container h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10px;
+    color: transparent;
+    user-select: none;
+}
 
-.gallery_container .gallery_box:nth-child(1) {
+.gallery_container > div {
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: center;
+    transition:  all 0.5s ease-in;
+}
+
+.gallery_container > div:hover {
+    opacity: 0.8;
+    transform: scale(0.98);
+}
+
+.photo1 {
     grid-column: span 2;
-    grid-row: span 1;
+    background: url('../images/gallery/photo1.jpg');
+}
+.photo2 {
+    grid-column: span 2;
+    background: url('../images/gallery/photo2.jpg');
+}
+.photo3 {
+    grid-column: span 2;
+    background: url('../images/gallery/photo5.jpg');
+}
+.photo4 {
+    background: url('../images/gallery/photo3.JPG');
+}
+.photo5 {
+    grid-column: span 3;
+    background: url('../images/gallery/photo6.jpg');
+}
+.photo6 {
+    grid-column: span 2;
+    background: url('../images/gallery/photo4.JPG');
+}
+
+@media screen and (max-width:705px) {
+    .photo1{
+        grid-column: span 6;
+    }
+    .photo2{
+        grid-column: span 2;
+    }
+    .photo3{
+        grid-column: span 4;
+    }
+    .photo4, .photo5, .photo6 {
+        grid-column: span 2;
+    }
+}
+@media screen and (max-width:595px) {
+    .gallery_container {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .gallery_container > div {
+        grid-column: span 1;
+    }
+    .photo4{
+        display: none;
+    }
 }

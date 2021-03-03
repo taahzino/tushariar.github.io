@@ -41,11 +41,10 @@
     position: relative;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    color: #000;
-    background-color: #eee;
+    color: #fff;
+    background-image: linear-gradient(to right,#6C5FD3, #4837C8);
+    transition: all 0.8s ease-in;
 }
 .sendMail:hover {
-    background-color: #ddd;
-    color: #000;
-    transition: 0.3s;
+    background-image: linear-gradient(to right,#3f2dc5, #382c92);
 }
