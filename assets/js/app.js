@@ -35,3 +35,17 @@ menuItems.forEach(item => {
         }
     });
 });
+
+let body = document.querySelector('body');
+let home = document.querySelector('.home');
+
+let darkMode = document.querySelector('#darkMode');
+darkMode.addEventListener('click', ()=>{
+    darkMode.classList.toggle('bxs-toggle-right');
+    body.classList.toggle(`darkMode`);
+    if(nav.classList.contains('active')){
+        toggle.classList.remove('active');
+        nav.classList.remove('active');
+        toggleBtn.classList.remove('bx-x');
+    }
+})
