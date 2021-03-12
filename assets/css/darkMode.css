@@ -48,7 +48,3 @@ body.darkMode .menu-toggle {
 body.darkMode .skills .container .skill .skillName{
     color: #fff;
 }
-
-body.darkMode .home::before{
-    background-color: #212121;
-}
