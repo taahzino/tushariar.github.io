@@ -44,7 +44,7 @@
 
 .photo1 {
     grid-column: span 2;
-    background: url('../images/gallery/photo1.jpg');
+    background: url('../images/gallery/photo10.jpg');
 }
 .photo2 {
     grid-column: span 2;
@@ -55,11 +55,11 @@
     background: url('../images/gallery/photo5.jpg');
 }
 .photo4 {
-    background: url('../images/gallery/photo3.JPG');
+    background: url('../images/gallery/photo6.JPG');
 }
 .photo5 {
     grid-column: span 3;
-    background: url('../images/gallery/photo6.jpg');
+    background: url('../images/gallery/photo9.jpg');
 }
 .photo6 {
     grid-column: span 2;

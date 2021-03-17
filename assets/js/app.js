@@ -40,9 +40,25 @@ let body = document.querySelector('body');
 let home = document.querySelector('.home');
 
 let darkMode = document.querySelector('#darkMode');
+let mode = localStorage.getItem('mode');
+if(mode === 'light') {
+    darkMode.classList.remove('bxs-toggle-right');
+    body.classList.remove(`darkMode`);
+}
+
 darkMode.addEventListener('click', ()=>{
+    let mode = localStorage.getItem('mode');
     darkMode.classList.toggle('bxs-toggle-right');
     body.classList.toggle(`darkMode`);
+    if(mode) {
+        if (mode === 'dark') {
+            localStorage.setItem('mode', 'light');
+        }else{
+            localStorage.setItem('mode', 'dark');
+        }
+    }else {
+        localStorage.setItem('mode', 'light');
+    }
     if(nav.classList.contains('active')){
         toggle.classList.remove('active');
         nav.classList.remove('active');
