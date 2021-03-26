@@ -55,7 +55,7 @@
     background: url('../images/gallery/photo5.jpg');
 }
 .photo4 {
-    background: url('../images/gallery/photo6.JPG');
+    background: url('../images/gallery/photo6.jpg');
 }
 .photo5 {
     grid-column: span 3;
@@ -63,7 +63,7 @@
 }
 .photo6 {
     grid-column: span 2;
-    background: url('../images/gallery/photo4.JPG');
+    background: url('../images/gallery/photo4.jpg');
 }
 
 @media screen and (max-width:705px) {
