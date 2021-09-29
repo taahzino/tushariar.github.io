@@ -65,6 +65,12 @@
     margin-top: 5px;
     margin-bottom: 15px;
 }
+
+.project_langs .mark {
+    display: inline-block;
+    margin: 2px;
+}
+
 .project_links {
     display: flex;
     align-self: end;
