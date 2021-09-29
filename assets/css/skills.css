@@ -48,8 +48,11 @@
     --skill: 65%;
 }
 .js {
-    --skill: 70%;
+    --skill: 85%;
 }
 .php {
     --skill: 80%;
+}
+.nodejs {
+    --skill: 70%;
 }

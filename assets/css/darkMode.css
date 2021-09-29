@@ -48,3 +48,8 @@ body.darkMode .menu-toggle {
 body.darkMode .skills .container .skill .skillName{
     color: #fff;
 }
+
+body.darkMode footer {
+    background-color: #000;
+    color: #fff;
+}

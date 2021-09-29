@@ -16,8 +16,8 @@ body{
 }
 
 ::selection{
-    background: #eee;
-    color: #000;
+    background: crimson;
+    color: #fff;
 }
 
 .mark{
